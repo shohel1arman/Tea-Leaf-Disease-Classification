@@ -19,7 +19,7 @@ The system is configured to classify images into four primary categories:
 
 1. **Clone the Project:**
    ```bash
-   git clone [https://github.com/shohel1arman/Tea-Leaf-Disease-Classification](https://github.com/shohel1arman/Tea-Leaf-Disease-Classification)
+   git clone https://github.com/shohel1arman/Tea-Leaf-Disease-Classification
    cd Tea-Leaf-Disease-Classification
 
 
@@ -76,6 +76,7 @@ Detailed Metrics: final_trainMetrics.json stores AUC, Sensitivity, Specificity, 
 Model Checkpoints: The best_model.pth file stores the weights with the highest validation accuracy.
 
 ## 📂 Project Structure
+```bash
 ├── models/
 │   ├── model_factory.py     # Model selection logic and custom loss functions 
 │   └── ...                  # Individual architecture definitions
